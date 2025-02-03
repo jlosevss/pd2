@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение стилей -->
+</head>
+<body>
+    <div class="registration-container">
+        <h2>Social media registration</h2>
+        <form action="#" method="POST" id="registration-form">
+            <label for="first-name">Name:</label>
+            <input type="text" id="first-name" name="first-name" required placeholder="Your name">
+
+            <label for="last-name">Surname:</label>
+            <input type="text" id="last-name" name="last-name" required placeholder="Your surname">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="Your email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="Your password">
+
+            <label for="confirm-password">Confirm your password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm your password">
+
+            <label for="birth-date">Date of birth:</label>
+            <input type="date" id="birth-date" name="birth-date" required>
+
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Your phone number">
+
+            <div class="terms">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I agree with terms of use</label>
+            </div>
+
+            <button type="submit">Sign in</button>
+        </form>
+    </div>
+
+    <script src="scripts.js"></script> <!-- Подключение JS -->
+</body>
+</html>
